@@ -79,9 +79,16 @@ nav li:hover {
 #about-me{
 font-size: 150%;
 }
-
+#weatherpic{
+    height: 500px; 
+    width: 625px; 
+    object-fit: contain;
+    size: cover;
+    
+}
 
 .pic-card {
+  
     position:relative;
     width: 50%;
     min-width: 40px;
@@ -94,8 +101,14 @@ font-size: 150%;
     box-sizing: border-box;
     cursor: pointer;
     user-select: none;
-}
 
+}
+#weatherpicture{
+    background-image: url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRehE_UsqXFmaMkk4HrpGyBuLQivQhF5z2yyA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+                  
+}
 
 .pic-card .label {
     border-radius: 8px;
